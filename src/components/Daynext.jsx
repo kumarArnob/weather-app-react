@@ -3,18 +3,16 @@ import React from "react";
 const Daynext = (props) => {
   return (
     <div>
-     <div className="container">
-        <div className="row">
-          <div className="col-md-4 offset-md-4">
+     
             <div className="weather">
-              <div className="current new">
+              <div className="current new newcurrent">
                 <div className="info">
                   <div>&nbsp;</div>
-                  <div className="row  pl-2">
-                    <div className="col-6">
-                      <div className="city pt-4">{props.day}</div>
+                  <div className="row justify-content-left">
+                    <div className="col-4">
+                      <div className="city ">{props.day}</div>
                       </div>
-                      <div className="col-6 pl-2">
+                      <div className="col-4">
                         <img src={props.logo} className="image-icon" alt="" />
                       </div>
                     
@@ -32,9 +30,7 @@ const Daynext = (props) => {
               </div>
             </div>
           </div>
-        </div>
-      </div>
-    </div>
+        
   );
 };
 

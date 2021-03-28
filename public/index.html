@@ -21,6 +21,12 @@
 
 
 <style>
+  .mycr{
+    max-height: 350px;
+    max-width: 600px;
+    margin-left: 450px;
+    margin-top: 20px;
+  }
     .weather
     {
         display: flex;
@@ -41,20 +47,25 @@
             color: white;
             padding: 20px;
             text-shadow: 1px 1px #F68D2E;
-            background-size: 360px 300px;
+            background-size: cover;
+            
         }
+      
 
         .new{
+         /* max-height:500px!important;
+          max-width: 500px!important; */
           
             background-image: url("%PUBLIC_URL%/img2.jpeg")!important;
-            background-size: cover;
+          
             
         }
         
         .new2{
+          /* height:300px!important;
+          width: 300px!important; */
+          background-image: url("%PUBLIC_URL%/img7.jpg"),linear-gradient(#5d5a5e94, #5c585888) !important;
           
-          background-image: url("%PUBLIC_URL%/img5.jpg"),linear-gradient(#5d5a5e94, #5c585888) !important;
-          background-size: cover;
           
       }
             .weather .current .info
