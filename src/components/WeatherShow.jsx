@@ -8,7 +8,7 @@ const WeatherShow = (props) => {
       <div className="container">
         <div className="row">
           <div className="col-md-4 offset-md-4">
-            <div className="weather">
+            <div className="weather hov">
               <div className="current">
                 <div className="info">
                   <div>&nbsp;</div>
