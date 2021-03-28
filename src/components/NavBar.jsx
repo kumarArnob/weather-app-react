@@ -9,7 +9,7 @@ const NavBar = () => {
 
       <nav className="navbar navbar-dark bg-dark mb-4">
         <a className="navbar-brand" href="#">
-          <img src="/icon.png" width={30} height={30} className="d-inline-block align-top mr-2" alt />
+        <i class="fas fa-cloud-sun fa-lg"></i>&nbsp;
           Weather App
         </a>
       </nav>
